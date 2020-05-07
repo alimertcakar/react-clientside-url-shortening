@@ -13,7 +13,7 @@ const Shortener = (props) => {
   const [address, setAddress] = useState("");
   const [secondsLeft, setSecondsLeft] = useState(1000);
   const redirect = () => {
-    if (address !== "#") window.location.href = address;
+    if (address !== "#") window.location.assign("https://" + address);
     clearInterval(window.shortenerTimer);
   };
 
