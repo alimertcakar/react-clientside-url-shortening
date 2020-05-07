@@ -14,12 +14,11 @@ const Shortener = (props) => {
   const [secondsLeft, setSecondsLeft] = useState(1000);
   const redirect = () => {
     if (address !== "#") window.location.href = address;
-    console.log("test");
     clearInterval(window.shortenerTimer);
   };
 
   useEffect(() => {
-    let SearchParameter = atob(window.location.pathname.substring(1));
+    let SearchParameter = atob(window.location.pathname.substring(7));
     setAddress(SearchParameter);
     window.shortenerTimer = setInterval(() => {
       setSecondsLeft((prevSeconds) => prevSeconds - 10);
