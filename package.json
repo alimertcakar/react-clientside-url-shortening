@@ -4,7 +4,10 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.9.13",
+<<<<<<< HEAD
     "@material-ui/icons": "^4.9.1",
+=======
+>>>>>>> ef972d7234166192c44b407d841e6aacceb78cbe
     "@reduxjs/toolkit": "^1.3.5",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -12,7 +15,10 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
+<<<<<<< HEAD
     "react-router-dom": "^5.1.2",
+=======
+>>>>>>> ef972d7234166192c44b407d841e6aacceb78cbe
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.0"
   },
