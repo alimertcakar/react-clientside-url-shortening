@@ -40,7 +40,7 @@ const Shortener = (props) => {
           I am logging if and when you clicked my link. I will get an e-mail
           notification about it.
         </Box>
-        {secondsLeft == 0 ? (
+        {secondsLeft === 0 ? (
           redirect()
         ) : (
           <Box fontSize="h4.fontSize" textAlign="center">
